@@ -1,0 +1,14 @@
+Types in Python
+
+Pyhton variables can change type based on the data we place in them 
+num1 = 4
+print(type(num1))
+num1 = num1/2 #now num1 is changed to type float
+print(type(num1))
+
+
+-> When a variable changes types, we call this "casting"
+-> When a type is changed as a side effect of an operation we call this implicit casting.
+-> When we use code yo change the a typeourselves we call this explicit casting.
+-> The explicit operators are int(), float() & str()
+-> with integers all the numbers after deicmals are truncated ex. 2.999999 is 2 only the remaining .99999 is truncated 

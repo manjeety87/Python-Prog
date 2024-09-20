@@ -1,0 +1,6 @@
+Program 1 
+ 1. Create a new python file called tip_calculator.py
+ 2. Create a variable for the bill 
+ 3. Create a variable for the tip percentage
+ 4 . Create a variable for the calculated tip amount & calculate it.
+ 5. Output the tip %, tip amount, and total bill (tip + bill)

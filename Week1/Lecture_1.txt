@@ -1,0 +1,18 @@
+1. Case matters
+"m" is not M -> python is case sensitive
+print("") is not "Print()"
+
+2. Brackets() signify functions -> function are links to another blocks of code that perform a function.
+    -> If a function requires additional information we can pass "agruments" as "parameters".
+
+When we call a print() function -> print("Hello World") is a string.
+    -> Where print() is a function and "Hello World" is a argument
+
+If a fucntion accepts multiple arguments, we seperate them with a comma operator
+
+Q. Print the strings "Hello" and "World" using a single print() statement
+Ans. print("Hello" , "World")
+
+
+3. Operators follow the same precedence as in normal maths i.e BEDMAS(Brackets, Exponential, Divide, Multiply, Addition, Subtraction)
+ 
