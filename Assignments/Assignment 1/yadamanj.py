@@ -1,8 +1,8 @@
 x = input("Please enter your Sheridan's student number")
 
-def printFun(n):
+# def printFun(n):
     # while n >= n:
-        print(n)
+        # print(n)
         # break
     
 for n in x:
