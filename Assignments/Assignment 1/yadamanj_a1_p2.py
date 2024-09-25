@@ -1,10 +1,22 @@
 #Assignment 2 not complete yet
 numbers = []
 breakCode = True
+
+def checkFloat(s):
+    try:
+        s == "done" or float(s)
+        return True
+    except ValueError:
+        print("Error: Invalid input. Please enter a valid floating point number or 'done'.")
+        return False
+
 while breakCode:
     n = input("Enter any numbers and type 'done' when finished : ")
+    if not checkFloat(n):
+        print("CHECK FLOAT")
+        continue
     if n  != "done":
-        n = int(n)
+        n = float(n)
         if len(numbers) == 0:
             smallest = n
             largest = n
