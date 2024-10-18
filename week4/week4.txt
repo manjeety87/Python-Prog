@@ -1,0 +1,17 @@
+while
+break -> cause the code to immideately exit the loop.
+         Do not run the loop any more code in the loop.
+         Do not do the comparison again
+
+continue -> skip the current iteration and continue with the next iteration.
+
+
+
+for _ in range(attempts):
+        userInput = input(message)
+        if userInput.isnumeric():
+            print(userInput)
+            return  # Exit the function if a valid number is input
+        else:
+            print("Invalid input. Please enter a valid number.")
+    print("Exceeded maximum attempts.")

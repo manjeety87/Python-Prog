@@ -1,0 +1,23 @@
+Compund Types
+
+editionLists = ["2", "3rd", "Canadian Edition","4th", "5th", "American Edition", "I", "III", "IV", "II" ]
+editionLists.sort()
+print(editionLists)
+
+Default sort is Lexographic sort doesn't work for book editions like this 
+
+When we create objects from classes, it is called instantiation
+The object we create is known as instance of a instance.
+The variable does not always store the instance it often stores the reference to the instance.
+A reference is just a fancy word for an address.
+Refernces matter when we talk about making copies of variables / object 
+Shallow copy -> is the same address (and so references same object) 
+Deep copy -> Is a new object at a new address. If we create a deep copy of object it creates new instance.
+          -> Deep copies often have to nest by making deep copies of attributes.
+
+
+Nouns are attributes
+Verbs are methods
+    -> functions are like methods but they don't require a object to be called on.
+
+Attributes thay cann be modified after an object is instantiated are known as "Mutables"

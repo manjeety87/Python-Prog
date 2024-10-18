@@ -23,4 +23,4 @@ print("You win")
 
 
 
-#OPTIMIZE For homework - Add a counter that keeps track of how manu valid guesses it takes until you guess the number. A valid guess is a number that lies between numMin and numMax, including the final correct guess.
+#OPTIMIZE For homework - Add a counter that keeps track of how many valid guesses it takes until you guess the number. A valid guess is a number that lies between numMin and numMax, including the final correct guess.
