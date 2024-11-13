@@ -1,0 +1,20 @@
+Scoreboard
+- coordinates
+- color
+
+Walls
+- coordinates
+- w & h
+- color
+
+Ball 
+- coordinates
+- w & h
+- color
+- velocity
+
+Paddle
+- coordinates
+- w & h
+- color
+- velocity

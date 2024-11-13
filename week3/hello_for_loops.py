@@ -19,10 +19,11 @@ groceriesIndexListA = []
 indexA = 0
 while indexA < len(groceries):
     groceriesIndexListA.append(indexA)
-    indexA = indexA + 1
+    indexA +=  1
 print(groceriesIndexListA)
 
 for index in groceriesIndexListA:
+    print("Butter -----",groceries[4])
     print(groceries[index])
 
 
@@ -33,3 +34,6 @@ for index in range(len(groceries)):
 
 rangeEx1 = list(range(10,0,-1))
 print(rangeEx1)
+
+for num in 'nums':
+    print(num)
