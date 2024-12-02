@@ -36,6 +36,7 @@ myCar3 = Car("Lambo", "Aventador")
 # print(myCar.fullName())
 # print(myTesla.getBrand())
 # print(myTesla.__brand)
+print(myTesla.model)
 
 # print(myCar.fuelType())
 # print(myTesla.fuelType())

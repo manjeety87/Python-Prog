@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Manny",
+    "lastName": "Yadav",
+    "contacts": [
+      { "contactType": "Phone", "contactValue": "123-456-7890" },
+      { "contactType": "Email", "contactValue": "mann@gmail.com" },
+      { "contactType": "Address", "contactValue": "123 Main St, Brampton, CA" }
+    ],
+    "numContacts": 3,
+    "primaryContactIndex": 0,
+    "primaryAddressIndex": 2
+  },
+  {
+    "firstName": "Keerth",
+    "lastName": "Saini",
+    "contacts": [
+      { "contactType": "Phone", "contactValue": "123-456-7890" },
+      { "contactType": "Email", "contactValue": "keerth@gmail.com" },
+      { "contactType": "Address", "contactValue": "123 Main St, Brampton, CA" }
+    ],
+    "numContacts": 3,
+    "primaryContactIndex": 1,
+    "primaryAddressIndex": 2
+  }
+]
